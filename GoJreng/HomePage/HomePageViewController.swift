@@ -66,8 +66,8 @@ class HomePageViewController: UIViewController, UICollectionViewDataSource, UICo
     }
     
     func setupStackView() {
-        view.addSubview(stackViewHome)
-        stackViewHome.setCustomSpacing(72, after: logoImage)
+        //view.addSubview(stackViewHome)
+        //stackViewHome.setCustomSpacing(72, after: logoImage)
         
         setupCollectionViewAutolayout()
     }
